@@ -26,6 +26,7 @@ public class calender {
                 months = months - 12;
             }
             System.out.println(years+" years, "+"Months="+months+" Rdays="+remainDays);
+            sc.close();
         }
     }
 }

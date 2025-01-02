@@ -1,16 +1,16 @@
 interface onePiece {
-    void size(int nami, int boa, int robin);
+    void size(int a, int b, int c);
 }
 
 public class Interface implements onePiece {
-    int nami, boa, robin;
-    public void size (int nami, int boa, int robin) {
-        this.nami = nami;
-        this.boa = boa;
-        this.robin = robin;
-        System.out.println("Nami's size = "+nami);
-        System.out.println("Boa's size = "+boa);
-        System.out.println("Robin's size = "+robin);
+    int a, b, c;
+    public void size (int a, int b, int c) {
+        this.a = a;
+        this.b = b;
+        this.c = c;
+        System.out.println("a = "+a);
+        System.out.println("b = "+b);
+        System.out.println("c = "+c);
     }
     public static void main (String args[]) {
         Interface itf = new Interface();
